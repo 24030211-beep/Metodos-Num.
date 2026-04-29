@@ -4,39 +4,60 @@
 
 ## Codigo 1:
 ```python
-a = 1.0000001
-b = 1.0000000
-print(a - b)
+suma = 0
+for i in range(10):
+    suma += 0.1
+print(suma)
+```
+```python
+Resultado: 0.9999999999999999
 ```
 
 
 ## Codigo 2:
 ```python
-x = 1000000.001
-y = 1000000.000
-print(x - y)
+x = 1
+for i in range(20):
+    x *= 1.1
+print(x)
+```
+```python
+Resultado: 6.72749994932561
 ```
 
 
 ## Codigo 3:
 ```python
-a = 5.5555556
-b = 5.5555555
-print(a - b)
+total = 0
+for i in range(100):
+    total += 0.01
+print(total
+```
+```python
+Resultado: 1.0000000000000007
 ```
 
 
 ## Codigo 4:
 ```python
-x = 99999.9999
-y = 99999.9998
-print(x - y)
+n = 0
+for i in range(7):
+    n += 0.2
+print(n)
+
+```
+```python
+Resultado: 1.4
 ```
 
 
 ## Codigo 5:
 ```python
-p = 2.00000001
-q = 2.00000000
-print(p - q)
+valor = 5
+for i in range(50):
+    valor -= 0.1
+print(valor)
+```
+```python
+Resultado: 1.0269562977782698e-15
 ```
