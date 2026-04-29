@@ -8,7 +8,9 @@
 x = int(3.9)
 print(x)
 ```
-
+```python
+Resultado: 3
+```
 
 ## Codigo 2:
 
@@ -16,7 +18,9 @@ print(x)
 y = int(8.99)
 print(y)
 ```
-
+```python
+Resultado: 8
+```
 
 ## Codigo 3:
 
@@ -24,13 +28,18 @@ print(y)
 a = float(7)
 print(a)
 ```
-
+```python
+Resultado: 7.0
+```
 
 ## Codigo 4:
 
 ```python
 n = int(-2.7)
 print(n)
+```
+```python
+Resultado: -2
 ```
 
 
@@ -39,4 +48,7 @@ print(n)
 ```python
 precio = int(19.95)
 print(precio)
+```
+```python
+Resultado: 19
 ```
