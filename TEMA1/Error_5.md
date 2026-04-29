@@ -8,6 +8,9 @@
 x = 1e308 * 10
 print(x)
 ```
+```python
+Resultado: inf
+```
 
 
 ## Codigo 2:
@@ -15,6 +18,9 @@ print(x)
 ``` python
 y = 10.0 ** 400
 print(y)
+```
+```python
+Resultado: inf
 ```
 
 
@@ -24,6 +30,9 @@ print(y)
 a = float("1e309")
 print(a)
 ```
+```python
+Resultado: inf
+```
 
 
 ## Codigo 4:
@@ -32,7 +41,9 @@ print(a)
 n = 9e307 * 9e10
 print(n)
 ```
-
+```python
+Resultado: inf
+```
 
 ## Codigo 5:
 
@@ -40,4 +51,7 @@ print(n)
 x = 1e300
 x *= 1e50
 print(x)
+```
+`````python
+Resultado: inf
 ```
