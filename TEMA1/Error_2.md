@@ -8,6 +8,9 @@
 x = 10000000000000000.0 + 1
 print(x)
 ```
+```python
+Resultado: 10000000000000000.0
+```
 
 
 ## Codigo 2:
@@ -16,7 +19,9 @@ print(x)
 x = 1e16 + 0.5
 print(x)
 ```
-
+```python
+Resultado: 10000000000000000.0
+```
 
 ## Codigo 3:
 
@@ -24,13 +29,18 @@ print(x)
 x = 9999999999999999.0 + 2
 print(x)
 ```
-
+```python
+Resultado: 10000000000000000.0
+```
 
 ## Codigo 4:
 
 ```python
 x = 1e20 + 3
 print(x)
+```
+```python
+Resultado: 1e+20
 ```
 
 
@@ -39,4 +49,8 @@ print(x)
 ```python
 x = 5000000000000000.0 + 0.1
 print(x)
+```
+
+```python
+ Resultado: 5000000000000000.0
 ```
