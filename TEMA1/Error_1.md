@@ -13,6 +13,9 @@ print("El número tiene infinitos decimales")
 print("Python lo aproxima.")
 
 ```
+```python
+Resultado: 3.3333333333333335
+```
 
 ## Codigo 2 (Suma de decimales):
 
@@ -23,6 +26,9 @@ print("Resultado:", resultado)
 print("No aparece exactamente 0.3")
 print("Se muestra aproximado.")
 
+```
+```python
+Resultado: 0.30000000000000004
 ```
 
 ## Codigo 3 (Multiplicación decimal):
@@ -35,6 +41,9 @@ print("Puede mostrar decimales extras")
 print("por redondeo interno."))
 
 ```
+```python
+Resultado:3.3000000000000003
+```
 
 ## Codigo 4 ( Raíz cuadrada):
 
@@ -45,6 +54,9 @@ print("Resultado:", resultado)
 print("La raíz es irracional")
 print("Python la aproxima.")
 
+```
+```python
+Resultado: 1.4142135623730951
 ```
 
 ## Codigo 5 (Suma repetida):
@@ -58,5 +70,8 @@ for i in range(10):
 print("Resultado:", suma)
 print("Debería ser 1")
 print("Pero puede salir aproximado.")
+```
+```python
+Resultado:  0.9999999999999999
 ```
 
