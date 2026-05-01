@@ -27,6 +27,7 @@ print("Valor de y:", y)
 ```
 #### (Ejercicios):
 ##### Solo cambia la matriz A y usa el mismo código.
+
 ## Codigo 1:
 
 ```python
