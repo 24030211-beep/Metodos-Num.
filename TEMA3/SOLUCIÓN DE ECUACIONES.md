@@ -1,1 +1,2 @@
-
+# Métodos de solución de ecuaciones
+#### Técnicas matemáticas utilizadas para encontrar el valor de incógnitas en ecuaciones o sistemas de ecuaciones. Algunos métodos resuelven de forma directa, como Eliminación Gaussiana y Gauss-Jordan, mientras que otros usan aproximaciones sucesivas, como Gauss-Seidel y Jacobi. Son herramientas muy importantes en matemáticas, ingeniería y programación para resolver problemas de manera eficiente.
