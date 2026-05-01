@@ -1,0 +1,2 @@
+# Diferenciación e integración numérica
+#### Métodos matemáticos utilizados para obtener derivadas e integrales de forma aproximada cuando resolverlas de manera exacta resulta difícil o imposible. La diferenciación numérica permite estimar la pendiente o razón de cambio de una función, mientras que la integración numérica se usa para calcular áreas bajo la curva o acumulaciones. Estos métodos son muy útiles en ingeniería, física, programación y análisis de datos, ya que permiten trabajar con funciones complejas o datos experimentales.
