@@ -35,6 +35,7 @@ print("x =", A[0][2])
 print("y =", A[1][2])
 ```
 #### (Ejercicios):
+##### Solo cambia la matriz A y usa el mismo código.
 
 ## Codigo 1:
 
