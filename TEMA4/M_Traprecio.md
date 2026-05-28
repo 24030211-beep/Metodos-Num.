@@ -3,6 +3,17 @@
 #### El método del trapecio es un método de integración numérica que sirve para aproximar el valor de una integral definida. Este método reemplaza la curva de la función por una línea recta entre dos puntos, formando un trapecio.
 #### La idea principal es calcular el área del trapecio para aproximar el área bajo la curva.
 
+## CODIGO 1:
+```python
+
+def trapecio(fa, fb, a, b):
+    resultado = ((b - a) / 2) * (fa + fb)
+    return resultado
+```
+###  Resultado: 6.000
+## CODIGO 2:
+```python
+
 CODIGO 1:
 ```python
 
@@ -10,19 +21,9 @@ def trapecio(fa, fb, a, b):
     resultado = ((b - a) / 2) * (fa + fb)
     return resultado
 ```
-CODIGO 2:
-```python
+### Resultado: 18.000
 
-CODIGO 1:
-```python
-
-def trapecio(fa, fb, a, b):
-    resultado = ((b - a) / 2) * (fa + fb)
-    return resultado
-```
-
-```
-CODIGO 3:
+## CODIGO 3:
 ```python
 
 a = 1
@@ -35,7 +36,9 @@ resultado = ((b - a) / 2) * (fa + fb)
 
 print("Resultado:", resultado)
 ```
-CODIGO 4:
+### Resultado: 6.472
+
+## CODIGO 4:
 ```python
 
 import math
@@ -50,7 +53,8 @@ resultado = ((b - a) / 2) * (fa + fb)
 
 print("Resultado:", resultado)
 ```
-CODIGO 5:
+### Resultado: 3.453
+## CODIGO 5:
 ```python
 
 import math
@@ -65,4 +69,7 @@ resultado = ((b - a) / 2) * (fa + fb)
 
 print("Resultado:", resultado)
 ```
+### Resultado: 0
 
+
+### Resultado Resultado: 3.453
