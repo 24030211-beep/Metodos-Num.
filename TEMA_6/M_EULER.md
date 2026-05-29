@@ -5,7 +5,7 @@
 
 
 ### Codigo principal
- ´´´ python
+ ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -17,9 +17,9 @@ def euler(f, x0, y0, h, n):
 
         y = y + h * f(x, y)
         x = x + h
- ´´´
+  ```
  ### Codigo 1:
-  ´´´ python
+   ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -36,7 +36,7 @@ def f(x, y):
     return x + y
 
 euler(f, 0, 1, 0.1, 5)
- ´´´
+  ```
  #### Resultado: 
 ##### x       y
 ##### 0       1
@@ -48,7 +48,7 @@ euler(f, 0, 1, 0.1, 5)
 
 
  ### Codigo 2:
-  ´´´ python
+   ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -65,7 +65,7 @@ def f(x, y):
     return x - y
 
 euler(f, 0, 2, 0.2, 5)
- ´´´
+   ``` 
  #### Resultado: 
 ##### x       y
 ##### 0       2
@@ -78,7 +78,7 @@ euler(f, 0, 2, 0.2, 5)
 
 
  ### Codigo 3:
-  ´´´ python
+   ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -95,7 +95,7 @@ def f(x, y):
     return y - x
 
 euler(f, 1, 1, 0.1, 6)
- ´´´
+  ```
  #### Resultado: 
 ##### x       y
 ##### 1.0     1
@@ -108,7 +108,7 @@ euler(f, 1, 1, 0.1, 6)
 
 
  ### Codigo 4:
-  ´´´ python
+   ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -125,7 +125,7 @@ def f(x, y):
     return x * y
 
 euler(f, 0, 1, 0.25, 4)
- ´´´
+  ```
  #### Resultado: 
 ##### x       y
 ##### 0       1
@@ -136,7 +136,7 @@ euler(f, 0, 1, 0.25, 4)
 
 
  ### Codigo 5:
-  ´´´ python
+   ``` python
 def euler(f, x0, y0, h, n):
     x = x0
     y = y0
@@ -153,7 +153,7 @@ def f(x, y):
     return x**2 + y
 
 euler(f, 0, 1, 0.1, 5)
- ´´´
+  ```
  #### Resultado: 
 ##### x       y
 ##### 0       1
